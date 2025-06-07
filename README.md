@@ -23,6 +23,4 @@ var _on_<signal_name> = func(<args>):
 _on_<signal_name>.connect(<signal_name>)
 ```
 
-This snippet auto-fills the signal name and places the cursor inside the handler body.
-
 ---
