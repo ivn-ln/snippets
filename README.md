@@ -1,6 +1,6 @@
 # My luasnip snippets
 
-LuaSnip snippets for use with [Neovim](https://neovim.io) and [LuaSnip](https://github.com/L3MON4D3/LuaSnip).
+Snippets for use with [Neovim](https://neovim.io) and [LuaSnip](https://github.com/L3MON4D3/LuaSnip).
 
 ## Features
 
