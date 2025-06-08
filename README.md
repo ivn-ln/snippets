@@ -19,8 +19,18 @@ Quickly set up a signal connection function:
 
 ```gdscript
 var _on_<signal_name> = func(<args>):
-	<cursor>
+    <cursor>
 _on_<signal_name>.connect(<signal_name>)
+```
+
+---
+
+#### `if_valid`  
+Quickly check if node instance is_valid
+
+```gdscript
+if is_instance_valid(<node>):
+    <cursor>
 ```
 
 ---

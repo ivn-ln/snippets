@@ -18,5 +18,9 @@ ls.add_snippets("gdscript", {
 		f(function()
 			vim.cmd("normal! jj<<")
 		end),
+	}),
+	s("if_valid", {
+		t("if is_instance_valid("), i(1, "node"),t(")"), t(":"), t({"", "\t"}),
+		i(2, "pass")
 	})
 })
