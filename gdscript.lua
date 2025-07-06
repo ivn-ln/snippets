@@ -22,5 +22,8 @@ ls.add_snippets("gdscript", {
 	s("if_valid", {
 		t("if is_instance_valid("), i(1, "node"),t(")"), t(":"), t({"", "\t"}),
 		i(2, "pass")
+	}),
+	s("await_ready", {
+		t("if not is_node_ready(): await ready")
 	})
 })
