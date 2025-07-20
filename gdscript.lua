@@ -14,10 +14,7 @@ ls.add_snippets("gdscript", {
 	s("connect", {
 		t("var _on_"), rep(1), t(" = func("), i(2, "args"), t("):"), t({ "", "\t" }),
 		i(3, "pass"), t({ "", "\t" }),
-		t("_on_"), rep(1), t(".connect("), i(1, "signal"), t(")"),
-		f(function()
-			vim.cmd("normal! jj<<")
-		end),
+		i(1, "signal"), t(".connect("), t("_on_"), rep(1), t(")"),
 	}),
 	s("if_valid", {
 		t("if is_instance_valid("), i(1, "node"),t(")"), t(":"), t({"", "\t"}),
@@ -25,5 +22,9 @@ ls.add_snippets("gdscript", {
 	}),
 	s("await_ready", {
 		t("if not is_node_ready(): await ready")
-	})
+	}),
+	-- TODO: Finish this snippet
+	-- s("for k, v", {
+	-- 	t("for v in ")
+	-- })
 })
